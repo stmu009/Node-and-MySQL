@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "amazon-like storefront with mysql backend",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stmu009/Node-and-MySQL.git"
+  },
+  "author": "Damian Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stmu009/Node-and-MySQL/issues"
+  },
+  "homepage": "https://github.com/stmu009/Node-and-MySQL#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
