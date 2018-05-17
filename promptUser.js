@@ -1,7 +1,17 @@
 var inquirer = require('inquirer')
+var products = require('./products.js')
+
+
+var productResults={};
+productResults = products.getProducts();
+console.log('!!!product Results', productResults);
+
 
 var promptUser = () => {
     console.log('Prompt User')
+    console.log('which product?');
+    console.log('choices from database')
+    console.log('how many?');
 };
 
 
