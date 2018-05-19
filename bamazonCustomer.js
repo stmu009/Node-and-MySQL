@@ -3,7 +3,10 @@ var products = require('./products.js')
 
 
 products.getProducts();
-promptUser.promptUser();
+// console.log(products.getProducts());
+// console.log('resultProducts',resultProducts());
+
+promptUser.promptUser()
 products.checkInventory();
 products.orderProduct();
 products.outOfStock();
